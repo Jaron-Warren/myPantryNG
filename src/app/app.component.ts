@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myPantryNG';
+  clicks = 0;
+  newClick(amount: number){
+    this.clicks += amount
+  }
 }
